@@ -1939,7 +1939,8 @@ prompt_powerlevel9k_teardown() {
 
 prompt_powerlevel9k_setup "$@"
 
-#---------my test conf --------------------------#
+
+#--------- My Custom Conf P9K -----
 #POWERLEVEL9K_DISABLE_RPROMPT=true
 #POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 #POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="▶ "
@@ -1966,7 +1967,7 @@ zsh_wifi_signal(){
 P9K_RPROMPT_ICON_LEFT=true
 P9K_LEFT_PROMPT_FIRST_SEGMENT_START_SYMBOL="\ue0b2"
 OS_ICON='\uf1b0'
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(host  os_icon dir_writable dir vcs virtualenv)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(host os_icon dir_writable dir vcs virtualenv)
 POWERLEVEL9K_TIME_ICON=""
 POWERLEVEL9K_TIME_FORMAT="%D{%H:%M:%S }"
 POWERLEVEL9K_VCS_CLEAN_BACKGROUND="green"
@@ -1975,7 +1976,7 @@ POWERLEVEL9K_VCS_UNTRACKED_BACKGROUND="red"
 
 # ----- Right side settings -----
 #POWERLEVEL9K_CUSTOM_WIFI_SIGNAL="zsh_wifi_signal"
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(background_jobs ram load rbenv rvm) 
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status background_jobs ram load rbenv rvm) 
 POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
 #POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
 POWERLEVEL9K_CONTEXT_TEMPLATE="\uF109  %n"

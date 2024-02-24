@@ -48,7 +48,7 @@ $ source ~/.zshrc
 
 Oh my Zsh requires the themes to be in a specific directory ```custom/plugins/```
 ```
-git clone git@github.com:devopscoder331/powerlevel9k-custom.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+git clone https://github.com/devopscoder331/powerlevel9k-custom.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 ```
 
 Now select this theme in your ~/.zshrc file. Set ZSH_THEME in ~/.zshrc and save the file.
